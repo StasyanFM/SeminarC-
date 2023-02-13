@@ -53,13 +53,35 @@
 // -3 -> нет
 // 7 -> нет
 
+// Console.WriteLine("Input number");
+// int num = Convert.ToInt32(Console.ReadLine());
+// if (num % 2 == 0)
+// {
+//     Console.WriteLine($"Число {num} является четным числом");
+// }
+// else
+// {
+//   Console.WriteLine($"Число {num} является нечетным числом");  
+// }
+// __________________________________________________________________________________________________________________________
+
+// Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+// 5 -> 2, 4
+// 8 -> 2, 4, 6, 8
+
 Console.WriteLine("Input number");
 int num = Convert.ToInt32(Console.ReadLine());
-if (num % 2 == 0)
+int current = num / (num / 2);
+while (current <= num)
 {
-    Console.WriteLine($"Число {num} является четным числом");
+    Console.Write(current + " ");
+    current = current + 2;
 }
-else
-{
-  Console.WriteLine($"Число {num} является нечетным числом");  
-}
+
+// do
+// {
+//     Console.Write(current + " ");
+//     current = current + 2;
+// }
+// while (current <= num);
