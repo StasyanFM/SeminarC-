@@ -4,22 +4,22 @@
 // // a = 2 b = 10 -> max = 10
 // // a = -9 b = -3 -> max = -3
 
-// Console.WriteLine("Input first number");
+// Console.WriteLine("Введите первое число");
 // int num1 = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Input second number");
+// Console.WriteLine("Введите второе число");
 // int num2 = Convert.ToInt32(Console.ReadLine());
 
 // if (num1 > num2)
 // {
-//     Console.WriteLine($"Number {num1} more than number {num2}");
+//     Console.WriteLine($"Число {num1} больше чем число {num2}");
 // }
 // else if (num1 < num2)
 // {
-//     Console.WriteLine($"Number {num2} more than number {num1}");
+//     Console.WriteLine($"Число {num2} больше чем число {num1}");
 // }
 // else
 // {
-//     Console.WriteLine($"Number {num1} equals number {num2}");
+//     Console.WriteLine($"Число {num1} равно числу {num2}");
 // }
 // _____________________________________________________________________________________________________________________
 
@@ -29,11 +29,11 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-// Console.WriteLine("Input first number");
+// Console.WriteLine("Введите первое число");
 // int num1 = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Input second number");
+// Console.WriteLine("Введите второе число");
 // int num2 = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Input third number");
+// Console.WriteLine("Введите третье число");
 // int num3 = Convert.ToInt32(Console.ReadLine());
 // int max = num1;
 // if (num2 > max) 
@@ -53,7 +53,7 @@
 // -3 -> нет
 // 7 -> нет
 
-// Console.WriteLine("Input number");
+// Console.WriteLine("Введите число");
 // int num = Convert.ToInt32(Console.ReadLine());
 // if (num % 2 == 0)
 // {
@@ -70,7 +70,7 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-Console.WriteLine("Input number");
+Console.WriteLine("Введите число");
 int num = Convert.ToInt32(Console.ReadLine());
 int current = num / (num / 2);
 while (current <= num)
