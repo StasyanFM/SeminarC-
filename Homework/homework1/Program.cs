@@ -29,19 +29,37 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-Console.WriteLine("Input first number");
-int num1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Input second number");
-int num2 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Input third number");
-int num3 = Convert.ToInt32(Console.ReadLine());
-int max = num1;
-if (num2 > max) 
+// Console.WriteLine("Input first number");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Input second number");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Input third number");
+// int num3 = Convert.ToInt32(Console.ReadLine());
+// int max = num1;
+// if (num2 > max) 
+// {
+//     max = num2;
+// }
+// if (num3 > max) 
+// {
+//     max = num3;
+// }
+// Console.WriteLine($"Число {max} наибольшее из введенных чисел");
+// ________________________________________________________________________________________________________________________
+
+// Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+// 4 -> да
+// -3 -> нет
+// 7 -> нет
+
+Console.WriteLine("Input number");
+int num = Convert.ToInt32(Console.ReadLine());
+if (num % 2 == 0)
 {
-    max = num2;
+    Console.WriteLine($"Число {num} является четным");
 }
-if (num3 > max) 
+else
 {
-    max = num3;
-}
-Console.WriteLine($"Число {max} наибольшее из введенных чисел");
+  Console.WriteLine($"Число {num} является нечетным");  
+};
