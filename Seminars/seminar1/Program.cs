@@ -3,7 +3,7 @@
 // Console.WriteLine ("Input number");
 // int number = Convert.ToInt32(Console.ReadLine());
 // int quad = number * number;
-// Console.WriteLine($"Quad of {number} is {quad}");
+//  Console.WriteLine($"Quad of {number} is {quad}");
 // ___________________________________________________________________________________________
 
 
@@ -50,7 +50,7 @@
     
 //     918 -> 8
 
-Console.WriteLine("Input tree-digit number");
-int num = Convert.ToInt32(Console.ReadLine());
-int resault = num % 10;
-Console.WriteLine($"Last digit of {num} is {resault}");
+// Console.WriteLine("Input tree-digit number");
+// int num = Convert.ToInt32(Console.ReadLine());
+// int resault = num % 10;
+// Console.WriteLine($"Last digit of {num} is {resault}");
