@@ -33,16 +33,63 @@
 
 // 918 -> 98
 
-int DeleteDecimal(int num)
+// int DeleteDecimal(int num)
+// {
+//     int sot = num / 100;
+//     int ed = num % 10;
+//     return sot * 10 + ed;
+// }
+
+// int randomnumber = new Random().Next(100, 1000);
+// Console.WriteLine(randomnumber);
+
+// // int result = DeleteDecimal(randomnumber); один из варинатов (первая строка из двух)
+// // Console.WriteLine(result); один из варинатов (вторая строка из двух)
+// Console.WriteLine(DeleteDecimal(randomnumber));
+// // ______________________________________________________________________________________________________________________
+
+// Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23.
+
+// 14  ->  нет
+// 46  ->  нет
+// 161 ->  да
+
+void Devid723(int num)
 {
-    int sot = num / 100;
-    int ed = num % 10;
-    return sot * 10 + ed;
+    if(num % 7 == 0 && num % 23 == 0)
+    {
+        Console.WriteLine("Да");
+    }
+    else
+    {
+        Console.WriteLine("Нет");
+    }
 }
+Console.WriteLine("Введите число");
+int num = Convert.ToInt32(Console.ReadLine());
 
-int randomnumber = new Random().Next(100, 1000);
-Console.WriteLine(randomnumber);
+Devid723(num);
 
-// int result = DeleteDecimal(randomnumber);
-// Console.WriteLine(result);
-Console.WriteLine(DeleteDecimal(randomnumber));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// _________________________________________________________________________________________________________________________________________________________________________________________
+
+// Напишите программу, которая будет принимать на вход два числа и выводить, является ли второе число кратным первому. Если второе число не кратно числу первому, то программа выводит остаток от деления.
+
+// 34, 5 -> не кратно, остаток 4
+// 16, 4  -> кратно
+
+
+
