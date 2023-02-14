@@ -1,1 +1,1 @@
-﻿Console.WriteLine("Работает");
+﻿Console.WriteLine("Работает Да");
