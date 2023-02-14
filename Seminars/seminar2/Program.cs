@@ -81,7 +81,7 @@ void Multiplicity(double num1, double num2)
 {
     if(num1 % num2 == 0)
     {
-        Console.WriteLine("Кратно");
+        Console.WriteLine("Введеное число кратно");
     }
     else 
     {
