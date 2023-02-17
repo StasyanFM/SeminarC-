@@ -1,0 +1,15 @@
+D:\Users\Стась\Desktop\C#\SeminarC#\Seminars\seminar3\bin\Debug\net7.0\seminar3.exe
+D:\Users\Стась\Desktop\C#\SeminarC#\Seminars\seminar3\bin\Debug\net7.0\seminar3.deps.json
+D:\Users\Стась\Desktop\C#\SeminarC#\Seminars\seminar3\bin\Debug\net7.0\seminar3.runtimeconfig.json
+D:\Users\Стась\Desktop\C#\SeminarC#\Seminars\seminar3\bin\Debug\net7.0\seminar3.dll
+D:\Users\Стась\Desktop\C#\SeminarC#\Seminars\seminar3\bin\Debug\net7.0\seminar3.pdb
+D:\Users\Стась\Desktop\C#\SeminarC#\Seminars\seminar3\obj\Debug\net7.0\seminar3.csproj.AssemblyReference.cache
+D:\Users\Стась\Desktop\C#\SeminarC#\Seminars\seminar3\obj\Debug\net7.0\seminar3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Стась\Desktop\C#\SeminarC#\Seminars\seminar3\obj\Debug\net7.0\seminar3.AssemblyInfoInputs.cache
+D:\Users\Стась\Desktop\C#\SeminarC#\Seminars\seminar3\obj\Debug\net7.0\seminar3.AssemblyInfo.cs
+D:\Users\Стась\Desktop\C#\SeminarC#\Seminars\seminar3\obj\Debug\net7.0\seminar3.csproj.CoreCompileInputs.cache
+D:\Users\Стась\Desktop\C#\SeminarC#\Seminars\seminar3\obj\Debug\net7.0\seminar3.dll
+D:\Users\Стась\Desktop\C#\SeminarC#\Seminars\seminar3\obj\Debug\net7.0\refint\seminar3.dll
+D:\Users\Стась\Desktop\C#\SeminarC#\Seminars\seminar3\obj\Debug\net7.0\seminar3.pdb
+D:\Users\Стась\Desktop\C#\SeminarC#\Seminars\seminar3\obj\Debug\net7.0\seminar3.genruntimeconfig.cache
+D:\Users\Стась\Desktop\C#\SeminarC#\Seminars\seminar3\obj\Debug\net7.0\ref\seminar3.dll
