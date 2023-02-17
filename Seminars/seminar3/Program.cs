@@ -27,19 +27,56 @@
 //A (3,6); B (2,1) -> 5,09
 //A (7,-5); B (1,-1) -> 7,21
 
-double FindDistance(double xA, double yA, double xB, double yB)
+// double FindDistance(double xA, double yA, double xB, double yB)
+// {
+//     return Math.Round(Math.Sqrt(Math.Pow(xA - xB, 2) + Math.Pow(yA - yB, 2)), 2);
+// }
+
+// Console.WriteLine("Введите координату xA:");
+// double xA = Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("Введите координату yA:");
+// double yA = Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("Введите координату xB:");
+// double xB = Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("Введите координату yB:");
+// double yB = Convert.ToDouble(Console.ReadLine());
+
+// Console.WriteLine($"Расстояние между точками -> {FindDistance(xA, yA, xB, yB)}");
+// ______________________________________________________________________________________________________________________________________________
+
+//Задача 2.Напишите программу, которая по заданному номеру четверти, показывает диапазон возможных координат точек в этой четверти (x и y).
+
+// void FindQuard(int c)
+// {
+//     if (c == 1)
+//         Console.WriteLine("x > 0 && y > 0");
+//     if (c == 2)
+//         Console.WriteLine("x < 0 && y > 0");
+//     if (c == 3)
+//         Console.WriteLine("x < 0 && y < 0");
+//     if (c == 4)
+//         Console.WriteLine("x > 0 && y > 0");
+//     else
+//         Console.WriteLine("Ошибочный ввод");
+// }
+// Console.WriteLine("Введите точку с:");
+// int c = Convert.ToInt32(Console.ReadLine());
+// FindQuard(c);
+// ________________________________________________________________________________________________________________________________________________
+
+//Задача 4. Напишите программу которая принимает на вход число (N) и выдает на консоль квадраты чисел от 1 до N
+
+void FindQuard(int n)
 {
-    return Math.Round(Math.Sqrt(Math.Pow(xA - xB, 2) + Math.Pow(yA - yB, 2)), 2);
+    int i = 1;
+        while (i <= n)
+    {
+        Console.WriteLine($"Квадрат числа {i} -> {i * i}");
+        i++;
+    }
 }
 
-Console.WriteLine("Введите координату xA:");
-double xA = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Введите координату yA:");
-double yA = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Введите координату xB:");
-double xB = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Введите координату yB:");
-double yB = Convert.ToDouble(Console.ReadLine());
-
-Console.WriteLine($"Расстояние между точками -> {FindDistance(xA, yA, xB, yB)}");
-// ______________________________________________________________________________________________________________________________________________
+Console.WriteLine("Введите число N:");
+int n = Convert.ToInt32(Console.ReadLine());
+FindQuard(n);
+// ________________________________________________________________________________________________________________________________________________
