@@ -4,14 +4,14 @@
 // 918 -> 1
 
 
-                                        // int secondNumber(int num)
-                                        // {
-                                        //     int Number = num / 10 % 10;
-                                        //     return Number;
-                                        // }
-                                        // Console.WriteLine("Введите число трехзначное число");
-                                        // int num = Convert.ToInt32(Console.ReadLine());
-                                        // Console.WriteLine(secondNumber(num));
+                                        // int secondNumber(int num)                                |
+                                        // {                                                        |
+                                        //     int Number = num / 10 % 10;                          |
+                                        //     return Number;                                       |   тест
+                                        // }                                                        |
+                                        // Console.WriteLine("Введите число трехзначное число");    |
+                                        // int num = Convert.ToInt32(Console.ReadLine());           |
+                                        // Console.WriteLine(secondNumber(num));                    |
 
 // int secondNumber(int num)
 // {
