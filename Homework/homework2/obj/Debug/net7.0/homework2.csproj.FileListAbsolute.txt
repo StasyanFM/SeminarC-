@@ -1,0 +1,15 @@
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework2\obj\Debug\net7.0\homework2.csproj.AssemblyReference.cache
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework2\obj\Debug\net7.0\homework2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework2\obj\Debug\net7.0\homework2.AssemblyInfoInputs.cache
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework2\obj\Debug\net7.0\homework2.AssemblyInfo.cs
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework2\obj\Debug\net7.0\homework2.csproj.CoreCompileInputs.cache
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework2\bin\Debug\net7.0\homework2.exe
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework2\bin\Debug\net7.0\homework2.deps.json
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework2\bin\Debug\net7.0\homework2.runtimeconfig.json
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework2\bin\Debug\net7.0\homework2.dll
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework2\bin\Debug\net7.0\homework2.pdb
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework2\obj\Debug\net7.0\homework2.dll
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework2\obj\Debug\net7.0\refint\homework2.dll
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework2\obj\Debug\net7.0\homework2.pdb
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework2\obj\Debug\net7.0\homework2.genruntimeconfig.cache
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework2\obj\Debug\net7.0\ref\homework2.dll
