@@ -3,26 +3,26 @@
 // 12821 -> да
 // 23432 -> да
 
-void Palindrom(int num)
-{
-    int fives = num % 10;
-    int fourth = ((num % 100) - fives) / 10;
-    int second = (num / 1000) % 10;
-    int first = num / 10000;
-    if (fives == first && fourth == second)
-    {
-        Console.WriteLine($"Число {num} -> полиндромно");
-    }
-    else
-    {
-        Console.WriteLine($"Число {num} -> не полиндромно");
-    }
+// void Palindrom(int num)
+// {
+//     int fives = num % 10;
+//     int fourth = ((num % 100) - fives) / 10;
+//     int second = (num / 1000) % 10;
+//     int first = num / 10000;
+//     if (fives == first && fourth == second)
+//     {
+//         Console.WriteLine($"Число {num} -> полиндромно");
+//     }
+//     else
+//     {
+//         Console.WriteLine($"Число {num} -> не полиндромно");
+//     }
 
-}
-Console.WriteLine("Введите пятизначное число");
-int num = Convert.ToInt32(Console.ReadLine());
+// }
+// Console.WriteLine("Введите пятизначное число");
+// int num = Convert.ToInt32(Console.ReadLine());
 
-Palindrom(num);
+// Palindrom(num);
 
 // _________________________________________________________________________________________________________________________
 
@@ -56,17 +56,17 @@ Palindrom(num);
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-// void FindQuard(int n)
-// {
-//     int i = 1;
-//     int step = 3;
-//         while (i <= n)
-//     {
-//         Console.WriteLine($"Куб числа {i} -> " + Math.Pow(i, step));
-//         i++;
-//     }
-// }
+void FindСube(int n)
+{
+    int i = 1;
+    int step = 3;
+        while (i <= n)
+    {
+        Console.WriteLine($"Куб числа {i} -> " + Math.Pow(i, step));
+        i++;
+    }
+}
 
-// Console.WriteLine("Введите число N:");
-// int n = Convert.ToInt32(Console.ReadLine());
-// FindQuard(n);
+Console.WriteLine("Введите число N:");
+int n = Convert.ToInt32(Console.ReadLine());
+FindСube(n);
