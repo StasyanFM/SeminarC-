@@ -48,18 +48,52 @@
 // 82 -> 10
 // 9012 -> 12
 
-Console.WriteLine("Введите число:");
-int num = Convert.ToInt32(Console.ReadLine());
-void Sum(int str)
-{    
-    int s = num;
-    int res = 0;
-    int[] array = s.ToString().ToCharArray().Select(x => x - '0').ToArray(); // ПРАВИЛЬНЫЙ ПЕРЕВОД СТРОКИ В МАССИВ                         // char [] array = s.ToString().ToCharArray();
-    for (int i = 0; i < array.Length; i++)
-     {
-         res += array[i];
-     }
-      Console.WriteLine($" {res} ");
+// Console.WriteLine("Введите число:");
+// int num = Convert.ToInt32(Console.ReadLine());
+// void Sum(int str)
+// {    
+//     int s = num;
+//     int res = 0;
+//     int[] array = s.ToString().ToCharArray().Select(x => x - '0').ToArray(); // ПРАВИЛЬНЫЙ ПЕРЕВОД СТРОКИ В МАССИВ                         // char [] array = s.ToString().ToCharArray();
+//     for (int i = 0; i < array.Length; i++)
+//      {
+//          res += array[i];
+//      }
+//       Console.WriteLine($" {res} ");
+// }
+
+// Sum(num);
+// _________________________________________________________________________________________________________________________________________________
+
+// Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+// 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
+// 6, 1, 33 -> [6, 1, 33]
+
+int[] CreatRandomArray(int size, int minValue, int maxValue)
+{
+    int[] array = new int[size];    // выделение памяти под массив
+    for (int i = 0; i < size; i++)
+    {
+        array[i] = new Random().Next(minValue, maxValue + 1);
+    }
+    return array;
 }
 
-Sum(num);
+void ShowArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " ");
+    }
+    Console.WriteLine();
+}
+
+Console.WriteLine("Введите размер массива:");
+int size = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите минимальный элемент массива:");
+int minValue = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите максимальный элемент массива:");
+int maxValue = Convert.ToInt32(Console.ReadLine());
+int[] array = CreatRandomArray(size, minValue, maxValue);
+ShowArray(array);
+CreatRandomArray(size, minValue, maxValue);
