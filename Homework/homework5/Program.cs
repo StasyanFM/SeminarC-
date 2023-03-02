@@ -49,17 +49,41 @@ int maxValue = Convert.ToInt32(Console.ReadLine());
 // [3, 7, 23, 12] -> 19
 // [-4, -6, 89, 6] -> 0
 
-void SumNumber(int[] array)               
+// void SumNumber(int[] array)               
+// {
+//     int temp = 0;
+//     for (int i = 1; i < array.Length; i=i+2)
+//     {
+//          temp = temp + array[i];       
+//     }
+//     Console.WriteLine($"Сумма числе на нечетных позициях {temp}");
+// }
+
+// int[] myArray = CreatRandomArray(size, minValue, maxValue);
+// ShowArray(myArray);
+// SumNumber(myArray);
+// ____________________________________________________________________________________________________________________
+
+// Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
+// [3 7 22 2 78] -> 76
+
+void DifferenceNumbers(int[] array, int minVar, int maxVar)               
 {
-    int temp = 0;
-    for (int i = 1; i < array.Length; i=i+2)
+    
+    for (int i = 0; i < array.Length; i++)
     {
-         temp = temp + array[i];       
+        if (array[i] < minVar)
+        {
+            minVar = array[i];
+        }
+        if (array[i] > maxVar)
+        {
+            maxVar = array[i];
+        }
     }
-    Console.WriteLine($"Сумма числе на нечетных позициях {temp}");
+    Console.WriteLine($"Разница между максимальным элеменом {maxVar} и минимальным элементом {minVar} -> {maxVar - minVar}");
 }
 
 int[] myArray = CreatRandomArray(size, minValue, maxValue);
 ShowArray(myArray);
-SumNumber(myArray);
-// ____________________________________________________________________________________________________________________
+DifferenceNumbers(myArray, maxValue, minValue);
