@@ -150,7 +150,7 @@ void Show2DArray(int[,] array)
 }
 
 void ChangeAverage(int[,] array)
-{        
+{
     for (int j = 0; j < array.GetLength(1); j++)
     {
         double average = 0;
@@ -158,7 +158,7 @@ void ChangeAverage(int[,] array)
         {
             average = average + array[i, j];
         }
-            Console.Write($"{average / array.GetLength(0)}; ");
+        Console.Write($"{average / array.GetLength(0)}; ");
     }
 }
 
