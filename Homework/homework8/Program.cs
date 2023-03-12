@@ -10,16 +10,71 @@
 // 9 5 3 2
 // 8 4 4 2
 
+// int[,] Create2DRandomArray(int colums, int rows, int minValue, int maxValue)
+// {
+//     int[,] newArray = new int[rows, colums];
+//     for (int i = 0; i < rows; i++)
+//     {
+//         for (int j = 0; j < colums; j++)
+//         {
+//             newArray[i, j] = new Random().Next(minValue, maxValue + 1);
+
+//         }
+//     }
+//     return newArray;
+// }
+
+// void Show2DArray(int[,] array)
+// {
+//     for (int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < array.GetLength(1); j++)
+//         {
+//             Console.Write(array[i, j] + " ");
+//         }
+//         Console.WriteLine();
+//     }
+//     Console.WriteLine();
+// }
+
+// void SortMaxToMin(int[,] array)
+// {
+//     for (int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < array.GetLength(1); j++)
+//         {
+//             for (int k = 0; k < array.GetLength(1) - 1; k++)
+//             {
+//                 if (array[i, k] < array[i, k + 1])
+//                 {
+//                     int temp = array[i, k + 1];
+//                     array[i, k + 1] = array[i, k];
+//                     array[i, k] = temp;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// Console.WriteLine("Введите количество строк:");
+// int rows = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите количество столбцов:");
+// int colums = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите минимальный элемент массива: ");
+// int minValue = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите максимальный элемент массива: ");
+// int maxValue = Convert.ToInt32(Console.ReadLine());
+
+// int[,] myArray = Create2DRandomArray(colums, rows, minValue, maxValue);
+// Show2DArray(myArray);
+// SortMaxToMin(myArray);
+// Show2DArray(myArray);
+// _____________________________________________________________________________________________________________________________________________
 // Задача 56: Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
-
 // Например, задан массив:
-
 // 1 4 7 2
-
 // 5 9 2 3
-
 // 8 4 2 4
-
 // 5 2 6 7
 
 // Программа считает сумму элементов в каждой строке и выдаёт номер строки с наименьшей суммой элементов: 1 строка
@@ -45,3 +100,47 @@
 // 12 13 14 05
 // 11 16 15 06
 // 10 09 08 07
+
+int[,] Create2DArray()
+{   
+    int rows = 4;
+    int colums = 4;
+    int[,] newArray = new int[rows, colums];
+    for (int i = 0; i < rows; i++)
+    {
+        for (int j = 0; j < colums; j++)
+        {
+            newArray[i, j] = 0;
+
+        }
+    }
+    return newArray;
+}
+
+void Show2DArray(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            Console.Write(array[i, j] + " ");
+        }
+        Console.WriteLine();
+    }
+    Console.WriteLine();
+}
+
+int[,] SpiralArray(int[,]array, int rows, int colums)
+{
+    for (int i = 0; i < rows; i++)
+    {
+        for (int j = 0; j < colums; j++)
+        {
+            if (i == 0 || i == rows - 1 || j == 0 || j == colums - 1);
+        }
+    }
+
+}
+
+int[,] myArray = Create2DArray();
+Show2DArray(myArray);

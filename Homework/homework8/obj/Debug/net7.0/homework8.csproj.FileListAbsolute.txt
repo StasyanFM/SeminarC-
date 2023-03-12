@@ -1,0 +1,15 @@
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework8\bin\Debug\net7.0\homework8.exe
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework8\bin\Debug\net7.0\homework8.deps.json
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework8\bin\Debug\net7.0\homework8.runtimeconfig.json
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework8\bin\Debug\net7.0\homework8.dll
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework8\bin\Debug\net7.0\homework8.pdb
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework8\obj\Debug\net7.0\homework8.csproj.AssemblyReference.cache
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework8\obj\Debug\net7.0\homework8.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework8\obj\Debug\net7.0\homework8.AssemblyInfoInputs.cache
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework8\obj\Debug\net7.0\homework8.AssemblyInfo.cs
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework8\obj\Debug\net7.0\homework8.csproj.CoreCompileInputs.cache
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework8\obj\Debug\net7.0\homework8.dll
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework8\obj\Debug\net7.0\refint\homework8.dll
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework8\obj\Debug\net7.0\homework8.pdb
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework8\obj\Debug\net7.0\homework8.genruntimeconfig.cache
+D:\Users\Стась\Desktop\C#\SeminarC#\Homework\homework8\obj\Debug\net7.0\ref\homework8.dll
