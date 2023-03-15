@@ -179,19 +179,6 @@ int[,] SecondArray(int colums, int rows, int minValue, int maxValue)
     return newArraySecond;
 }
 
-int[,] ResArray(int colums, int rows)
-{
-    int[,] newArraySecond = new int[rows, colums];
-    for (int i = 0; i < rows; i++)
-    {
-        for (int j = 0; j < colums; j++)
-        {
-            newArraySecond[i, j] = 0;
-        }
-    }
-    return newArraySecond;
-}
-
 void ShowArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
@@ -205,8 +192,11 @@ void ShowArray(int[,] array)
     Console.WriteLine();
 }
 
-int[,] ResultArray(int[,] FirstArray, int[,] SecondArray,int[,] ResArray)
-{
+int[,] ResultArray(int[,] FirstArray, int[,] SecondArray)
+{   
+    int rows = 0;
+    int colums = 0;
+    int[,] ResArray = new int [rows, colums];
     for (int i = 0; i < FirstArray.GetLength(0); i++)
     {
         for (int j = 0; j < SecondArray.GetLength(1); j++)
@@ -220,6 +210,7 @@ int[,] ResultArray(int[,] FirstArray, int[,] SecondArray,int[,] ResArray)
     }
     return ResArray;
 }
+
 Console.WriteLine("Введите количество строк массивов:");
 int rows = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите количество столбцов массивов:");
@@ -231,10 +222,12 @@ int maxValue = Convert.ToInt32(Console.ReadLine());
 
 int[,] myArray1 = FirstArray(colums, rows, minValue, maxValue);
 int[,] myArray2 = SecondArray(colums, rows, minValue, maxValue);
-int[,] myArray3 = ResArray(colums, rows);
+int[,] myArray3 = ResultArray(FirstArray, SecondArray);
 ShowArray(myArray1);
 ShowArray(myArray2);
-// int[,] myArray = ResultArray(FirstArray, SecondArray, ResArray);
+ShowArray(myArray3);
+
+
 
 // _________________________________________________________________________________________________________________________________________
 
