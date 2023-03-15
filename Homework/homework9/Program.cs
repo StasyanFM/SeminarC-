@@ -22,32 +22,31 @@
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
 
-int SumNum(int m, int n)
-{
-    int res = m;
-    if (m == n)
-    {
-        return 0;
-    }
-    else
-    {
-        m++;
-        res = m + SumNum(m, n);
-        return res;
-    }
-}
+// int SumNum(int m, int n)
+// {
+//     if (m < n)
+//     {
+//         if (m < n)
+//         {
+//             return SumNum(m + 1, n) + m;
+//         }
+//     }
+//     else if (m > n)
+//     {
+//         if (m > n)
+//         {
+//             return SumNum(m, n + 1) + n;
+//         }
+//     }
+//     return n;
+// }
 
-void SumMtoN(int m, int n)
-{
-    Console.WriteLine($"Сумма чисел в промежутке от {m} до {n} -> {SumNum(m-1, n)}");
-}
+// Console.WriteLine("Введите число M: ");
+// int m = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число N: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine($"Сумма чисел в промежутке от {m} до {n} -> {SumNum(m, n)}");
 
-Console.WriteLine("Введите число M: ");
-int m = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите число N: ");
-int n = Convert.ToInt32(Console.ReadLine());
-
-SumMtoN(m, n);
 // __________________________________________________________________________________________________________________
 
 // Задача 68: Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
