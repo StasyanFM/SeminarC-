@@ -222,7 +222,7 @@ int maxValue = Convert.ToInt32(Console.ReadLine());
 
 int[,] myArray1 = FirstArray(colums, rows, minValue, maxValue);
 int[,] myArray2 = SecondArray(colums, rows, minValue, maxValue);
-int[,] myArray3 = ResultArray(FirstArray, SecondArray);
+int[,] myArray3 = ResultArray(FirstArray, SecondArray); // ???
 ShowArray(myArray1);
 ShowArray(myArray2);
 ShowArray(myArray3);
@@ -241,20 +241,90 @@ ShowArray(myArray3);
 // 27(0,0,1) 90(0,1,1)
 // 26(1,0,1) 55(1,1,1)
 
+// bool FindElementIn3DArray(int[,,] array, int elementRow, int elementCol, int elementVert)
+// {
+//   for (int i = 0; i < array.GetLength(0); i++)
+//   {
+//     if (i < elementRow)
+//     {
+//     }
+//     for (int j = 0; j < array.GetLength(2); j++)
+//     {
+//       if (i != elementRow && j != elementCol)
+//       {
+//         for (int k = 0; k < array.GetLength(2); k++)
+//         {
+//           if (array[i, j, k] == array[elementRow, elementCol, elementVert])
+//           {
+//             return true;
+//           }
+//         }
+//       }
+//       else
+//       {
+//         for (int k = 0; k < elementVert; k++)
+//         {
+//           if (array[i, j, k] == array[elementRow, elementCol, elementVert])
+//           {
+//             return true;
+//           }
+//         }
+//       }
+//     }
+//   }
+//   return false;
+// }
+
+// int[,,] Create3DRandomArray(int rows, int columns, int verticals, int minValue = 10, int maxValue = 99)
+// {
+//   int[,,] newArray = new int[rows, columns, verticals];
+
+//   for (int i = 0; i < newArray.GetLength(0); i++)
+//   {
+//     for (int j = 0; j < newArray.GetLength(1); j++)
+//     {
+//       for (int k = 0; k < newArray.GetLength(2); k++)
+//       {
+//         newArray[i, j, k] = new Random().Next(minValue, maxValue + 1);
+//         while (FindElementIn3DArray(newArray, i, j, k))
+//         {
+//           newArray[i, j, k] = new Random().Next(minValue, maxValue + 1);
+//         }
+//       }
+//     }
+//   }
+//   return newArray;
+// }
+
+// void Print3DArray(int[,,] array)
+// {
+//   for (int i = 0; i < array.GetLength(0); i++)
+//   {
+//     for (int j = 0; j < array.GetLength(1); j++)
+//     {
+//       for (int k = 0; k < array.GetLength(2); k++)
+//       {
+//         Console.Write($"{array[i, j, k]} ({i},{j},{k}){(k != array.GetLength(2) - 1 ? "   " : "")}");
+//       }
+//       Console.WriteLine();
+//     }
+//   }
+// }
+
+// Console.WriteLine("Введите количество строк массива:");
+// int rows = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите количество столбцов массива:");
+// int colums = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input number of rows in array: ");
+// Console.Write("Введите количество вертикалей массива: ");
+// int verticals = Convert.ToInt32(Console.ReadLine());
+
+// int[,,] myArray = Create3DRandomArray(rows, colums, verticals);
+// Print3DArray(myArray);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+// ____________________________________________________________________________________________________________________________________
 
 // Задача 62. Напишите программу, которая заполнит спирально массив 4 на 4.
 // Например, на выходе получается вот такой массив:
@@ -263,46 +333,3 @@ ShowArray(myArray3);
 // 11 16 15 06
 // 10 09 08 07
 
-// int[,] Create2DArray()
-// {   
-//     int rows = 4;
-//     int colums = 4;
-//     int[,] newArray = new int[rows, colums];
-//     for (int i = 0; i < rows; i++)
-//     {
-//         for (int j = 0; j < colums; j++)
-//         {
-//             newArray[i, j] = 0;
-
-//         }
-//     }
-//     return newArray;
-// }
-
-// void Show2DArray(int[,] array)
-// {
-//     for (int i = 0; i < array.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < array.GetLength(1); j++)
-//         {
-//             Console.Write(array[i, j] + " ");
-//         }
-//         Console.WriteLine();
-//     }
-//     Console.WriteLine();
-// }
-
-// int[,] SpiralArray(int[,]array, int rows, int colums)
-// {
-//     for (int i = 0; i < rows; i++)
-//     {
-//         for (int j = 0; j < colums; j++)
-//         {
-//             if (i == 0 || i == rows - 1 || j == 0 || j == colums - 1);
-//         }
-//     }
-
-// }
-
-// int[,] myArray = Create2DArray();
-// Show2DArray(myArray);
